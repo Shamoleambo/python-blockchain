@@ -1,5 +1,6 @@
-def greet():
-    print("Hello World!")
+blockchain = [[1]]
 
 
-greet()
+def add_value(value):
+    blockchain.append([blockchain[-1], value])
+    print(blockchain)
